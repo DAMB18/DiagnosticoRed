@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+informe_red_*.txt
+*.log

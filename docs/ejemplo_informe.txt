@@ -1,0 +1,32 @@
+== FUNCIONA, CON ADVERTENCIAS ==
+Informe de red - 2026-01-15 10:30:00   (DATOS DE EJEMPLO)
+
+DIAGNOSTICO
+[ OK ] Enlace local sano (gateway 192.168.1.1: 0.0% perdida, 2.0 ms)
+[ OK ] Salida a internet por IP correcta (22 ms)
+[ OK ] Resolucion DNS correcta (25 ms)
+[ OK ] Prueba HTTP real OK (110 ms)
+[ OK ] Senal Wi-Fi 88% (5 GHz, canal 44, 802.11ac)
+[AVISO] 3 desconexion(es) Wi-Fi desde 2026-01-14 10:30 (2 del driver, 1 manuales/otras)
+
+ADAPTADORES
+* Wi-Fi  [Up, fisico]  Intel(R) Dual Band Wireless-AC 8260
+    IP: 192.168.1.50   Gateway: 192.168.1.1   DNS: 1.1.1.1, 1.0.0.1
+    Velocidad: 866.7 Mbps   DHCP: Enabled   Metrica: 35   MAC: AA-BB-CC-DD-EE-FF
+    Driver: Intel 22.200.2.1 (2023-03-09)   Ahorro de energia: n/d
+* Ethernet  [Disconnected, fisico]  Intel(R) Ethernet Connection I219-LM
+    Driver: Intel 12.19.2.62 (2024-07-18)   Ahorro de energia: n/d
+
+WI-FI ACTUAL
+  Red: MiRed   Senal: 88%   5 GHz canal 44   802.11ac
+  Velocidad rx/tx: 866.7 / 866.7 Mbps   Seguridad: WPA2-Personal
+  Redes vecinas por canal: 44:1
+
+PRUEBAS DE CONECTIVIDAD
+  Router               192.168.1.1     perdida 0.0%   2.0 ms (min 1, max 8, jitter 1.5)
+  Cloudflare 1.1.1.1   1.1.1.1         perdida 0.0%   11.5 ms (min 8, max 22, jitter 3.4)
+  Google 8.8.8.8       8.8.8.8         perdida 0.0%   31.0 ms (min 28, max 40, jitter 2.6)
+  DNS del sistema: OK 25 ms
+    servidor 1.1.1.1: 115 ms
+    servidor 1.0.0.1: 118 ms
+    servidor 8.8.8.8: 205 ms
