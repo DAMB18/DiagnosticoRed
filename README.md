@@ -23,7 +23,7 @@ Está pensada para responder la pregunta *"¿por qué se me cae el internet?"* s
 Requiere Windows 10/11 y [Python 3.8+](https://www.python.org/downloads/) en el `PATH`.
 
 ```bash
-git clone https://github.com/<tu-usuario>/DiagnosticoRed.git
+git clone https://github.com/DAMB18/DiagnosticoRed.git
 cd DiagnosticoRed
 ```
 
